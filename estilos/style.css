@@ -1,1 +1,144 @@
 @charset "UTF-8";
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Paleta de Cores 
+
+    Cor1: #000000
+    Cor2: #ffffff
+    Cor3: #378ADD
+    Cor4: #E6F1FB
+    Cor5: #5F5E5A
+    Cor6: #D3D1C7
+    Cor7: #B5D4F4;
+
+*/
+
+/* Fonte
+
+    Fonte Principal: "Inter", sans-serif;
+
+*/
+
+:root{
+
+    ---Preto: #000000;
+
+    ---Branco: #ffffff;
+
+    ---Azul_Destaque: #378ADD;
+
+    ---Azul_Claro_Badge: #E6F1FB;
+
+    ---Cinza_Texto: #5F5E5A;
+
+    ---Cinza_Borda: #D3D1C7;
+
+    ---Font_Principal: "Inter", sans-serif;
+
+    ---Azul_Badge_Texto: #B5D4F4;
+
+    ---Azul_Badge_Fundo: #0C447C;
+
+}
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-size: var(---Font_Principal);
+
+    background-color: rgb(46, 45, 45);
+
+}
+
+main#conteiner{
+
+    width: 100vw;
+    height: 92vh;
+
+    display: flex;
+
+    flex-flow: column nowrap;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    gap: 24px;
+
+}
+
+section.cards{
+
+    background-color: var(---Cinza_Texto);
+
+}
+
+section#basico{
+
+    padding: 10px;
+
+    width: 220px;
+    height: 240px;
+
+    border-radius: 10px;        
+
+}
+
+section#pro{
+
+    width: 250px;
+    height: 240px;
+
+    border-radius: 10px;  
+    border: 2px solid var(---Azul_Destaque);
+
+}
+
+
+section#premium{
+
+    width: 220px;
+    height: 240px;
+
+    border-radius: 10px;
+
+}
+
+span#popu{
+
+    display: inline-block;
+
+    background-color: var(---Azul_Badge_Fundo);
+    color: var(---Azul_Badge_Texto);
+
+    padding: 5px;
+    margin: 15px 0px 0px 15px;
+
+    font-size: 11px;
+
+    border-radius: 10px;
+
+}
+
+h1#text1{
+
+    color: white;
+
+    font-size: 1.2rem;
+
+    margin: 20px;
+
+}
+
+

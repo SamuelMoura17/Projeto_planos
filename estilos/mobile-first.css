@@ -10,6 +10,7 @@
     Cor4: #E6F1FB
     Cor5: #5F5E5A
     Cor6: #D3D1C7
+    Cor7: #B5D4F4;
 
 */
 
@@ -35,6 +36,10 @@
 
     ---Font_Principal: "Inter", sans-serif;
 
+    ---Azul_Badge_Texto: #B5D4F4;
+
+    ---Azul_Badge_Fundo: #0C447C;
+
 }
 
 *{
@@ -44,13 +49,15 @@
 
     box-sizing: border-box;
 
+    text-align: justify;
+
 }
 
 body{
 
     font-size: var(---Font_Principal);
 
-    background-color: var(---Branco);
+    background-color: rgb(46, 45, 45);
 
 }
 
@@ -93,7 +100,8 @@ section#pro{
     width: 250px;
     height: 240px;
 
-    border-radius: 10px;    
+    border-radius: 10px;  
+    border: 2px solid var(---Azul_Destaque);
 
 }
 
@@ -107,4 +115,60 @@ section#premium{
 
 }
 
+span#popu{
+
+    display: inline-block;
+
+    background-color: var(---Azul_Badge_Fundo);
+    color: var(---Azul_Badge_Texto);
+
+    padding: 5px;
+    margin: 15px 0px 0px 15px;
+
+    font-size: 11px;
+
+    border-radius: 10px;
+
+}
+
+h1#text1{
+
+    color: var(---Branco);
+
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+    margin: 10px 0px 5px 10px;
+
+}
+
+
+h2#preç1{
+
+    color: var(---Branco);
+
+    margin: 0px 0px 5px 10px;
+
+    font-size: 22px;
+
+}
+
+span{
+
+    color: var(---Cinza_Borda);
+
+    font-size: 13px;
+
+}
+
+ul#cont1{
+
+    list-style-type: none;
+
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+
+    color: var(---Cinza_Borda);
+
+}
 
