@@ -84,6 +84,14 @@ section.cards{
 
 }
 
+span{
+
+    color: var(---Cinza_Borda);
+
+    font-size: 13px;
+
+}
+
 section#basico{
 
     padding: 10px;
@@ -91,27 +99,69 @@ section#basico{
     width: 220px;
     height: 240px;
 
-    border-radius: 10px;        
+    border-radius: 10px;   
+    border: 1px solid var(---Branco);
+
+}
+
+
+
+h1#text1{
+
+    color: var(---Branco);
+
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+    margin: 10px 0px 5px 10px;
+
+}
+
+h2#preç1{
+
+    color: var(---Branco);
+
+    margin: 0px 0px 5px 10px;
+
+    font-size: 22px;
+
+}
+
+ul#cont1{
+
+    list-style-type: none;
+
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+
+    color: var(---Cinza_Borda);
+
+}
+
+button#buton1{
+
+    background-color: var(---Cinza_Texto);
+    color: var(---Branco);
+
+    text-align: center;
+
+    padding: 10px;
+    margin-top: 5px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+
+    width: 100%;
 
 }
 
 section#pro{
 
     width: 250px;
-    height: 240px;
+    height: 280px;
 
     border-radius: 10px;  
     border: 2px solid var(---Azul_Destaque);
-
-}
-
-
-section#premium{
-
-    width: 220px;
-    height: 240px;
-
-    border-radius: 10px;
 
 }
 
@@ -131,9 +181,77 @@ span#popu{
 
 }
 
-h1#text1{
+h1#text2{
 
     color: var(---Branco);
+
+    font-size: 1.4rem;
+    font-weight: bolder;
+
+    margin: 10px 0px 5px 18px;
+
+
+}
+
+h2#preç2{
+
+    color: var(---Branco);
+
+    margin: 0px 0px 5px 18px;
+
+    font-size: 20px;   
+
+}
+
+ul#cont2{
+
+    list-style-type: none;
+
+    padding: 5px 0px 15px 10px;
+    margin: 10px;
+
+    color: var(---Cinza_Borda);
+
+}
+
+button#buton2{
+
+    background-color: var(---Azul_Destaque);
+    color: var(---Branco);
+
+    text-align: center;
+
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border-radius: 20px;
+    border: none;
+
+    width: 47%;
+
+    position: absolute;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+}
+
+section#premium{
+
+    width: 220px;
+    height: 250px;
+
+    border-radius: 10px;
+    border: 1px solid var(---Branco);
+
+}
+
+h1#text3{
+
+    color: var(---Branco);
+
+    padding: 10px;
 
     font-size: 1.2rem;
     font-weight: bolder;
@@ -142,33 +260,49 @@ h1#text1{
 
 }
 
-
-h2#preç1{
+h2#preç3{
 
     color: var(---Branco);
 
-    margin: 0px 0px 5px 10px;
+    margin: 0px 0px 5px 18px;
 
     font-size: 22px;
 
 }
 
-span{
-
-    color: var(---Cinza_Borda);
-
-    font-size: 13px;
-
-}
-
-ul#cont1{
+ul#cont3{
 
     list-style-type: none;
 
     padding: 10px;
-    margin: 5px 0px 10px 0px;
+    margin: 5px 0px 10px 10px;
 
     color: var(---Cinza_Borda);
 
 }
+
+button#buton3{
+
+    background-color: var(---Cinza_Texto);
+    color: var(---Branco);
+
+    text-align: center;
+
+    padding: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+
+    width: 42%;
+
+    position: absolute;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+}
+
+
 
