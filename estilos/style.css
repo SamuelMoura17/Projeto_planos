@@ -53,6 +53,19 @@
 
 }
 
+@media (min-width: 601px) and (max-width: 992px) {
+    
+    *{
+
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    text-align: justify;
+
+}
+
 body{
 
     font-size: var(---Font_Principal);
@@ -64,17 +77,17 @@ body{
 main#conteiner{
 
     width: 100vw;
-    height: 92vh;
+    height: 100vh;
 
     display: flex;
 
     flex-flow: row nowrap;
 
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     align-items: center;
 
-    gap: 24px;
+    gap: 5px;
 
 }
 
@@ -88,7 +101,7 @@ span{
 
     color: var(---Cinza_Borda);
 
-    font-size: 16px;
+    font-size: 13px;
 
 }
 
@@ -96,8 +109,11 @@ section#basico{
 
     padding: 10px;
 
-    width: 280px;
-    height: 420px;
+    flex-basis: 220px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    height: 240px;
 
     border-radius: 10px;   
     border: 1px solid var(---Branco);
@@ -110,7 +126,7 @@ h1#text1{
 
     color: var(---Branco);
 
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     font-weight: bolder;
 
     margin: 10px 0px 5px 10px;
@@ -123,7 +139,7 @@ h2#preç1{
 
     margin: 0px 0px 5px 10px;
 
-    font-size: 32px;
+    font-size: 22px;
 
 }
 
@@ -132,13 +148,9 @@ ul#cont1{
     list-style-type: none;
 
     padding: 10px;
-    margin: 5px 0px 8px 0px;
+    margin: 5px 0px 5px 0px;
 
     color: var(---Cinza_Borda);
-
-    font-size: 22px;
-
-    line-height: 2.4;
 
 }
 
@@ -149,10 +161,8 @@ button#buton1{
 
     text-align: center;
 
-    font-size: 16px;
-
-    padding: 16px;
-    margin-top: 10px;
+    padding: 10px;
+    margin-top: 5px;
 
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.637);
@@ -163,8 +173,11 @@ button#buton1{
 
 section#pro{
 
-    width: 320px;
-    height: 460px;
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-basis: 1;
+
+    height: 280px;
 
     border-radius: 10px;  
     border: 2px solid var(---Azul_Destaque);
@@ -178,10 +191,10 @@ span#popu{
     background-color: var(---Azul_Badge_Fundo);
     color: var(---Azul_Badge_Texto);
 
-    padding: 10px;
+    padding: 5px;
     margin: 15px 0px 0px 15px;
 
-    font-size: 17px;
+    font-size: 11px;
 
     border-radius: 10px;
 
@@ -191,7 +204,7 @@ h1#text2{
 
     color: var(---Branco);
 
-    font-size: 2.2rem;
+    font-size: 1.4rem;
     font-weight: bolder;
 
     margin: 10px 0px 5px 18px;
@@ -205,7 +218,7 @@ h2#preç2{
 
     margin: 0px 0px 5px 18px;
 
-    font-size: 25px;   
+    font-size: 20px;   
 
 }
 
@@ -213,14 +226,10 @@ ul#cont2{
 
     list-style-type: none;
 
-    padding: 5px 0px 18px 10px;
+    padding: 5px 0px 25px 10px;
     margin: 10px;
 
     color: var(---Cinza_Borda);
-
-    font-size: 23px;
-
-    line-height: 2.3;
 
 }
 
@@ -231,20 +240,24 @@ button#buton2{
 
     text-align: center;
 
-    padding: 18px;
-    margin-left: 11px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
 
     border-radius: 20px;
-    border: 1px solid white;
+    border: none;
 
-    width: 93%;
+    width: 95%;
 
 }
 
 section#premium{
 
-    width: 280px;
-    height: 420px;
+    flex-basis: 220px;
+    flex-grow: 0;
+    flex-basis: 2;
+
+    height: 250px;
 
     border-radius: 10px;
     border: 1px solid var(---Branco);
@@ -257,7 +270,7 @@ h1#text3{
 
     padding: 10px;
 
-    font-size: 2.3rem;
+    font-size: 1.2rem;
     font-weight: bolder;
 
     margin: 10px 0px 5px 10px;
@@ -270,7 +283,7 @@ h2#preç3{
 
     margin: 0px 0px 5px 18px;
 
-    font-size: 34px;
+    font-size: 22px;
 
 }
 
@@ -279,13 +292,9 @@ ul#cont3{
     list-style-type: none;
 
     padding: 10px;
-    margin: 5px 0px 15px 10px;
+    margin: 5px 0px 10px 10px;
 
     color: var(---Cinza_Borda);
-
-    font-size: 20px;
-
-    line-height: 2.5;
 
 }
 
@@ -296,15 +305,281 @@ button#buton3{
 
     text-align: center;
 
-    padding: 18px;
-    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 9px;
 
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.637);
 
-    width: 93%;
+    width: 200px;
 
 }
 
+}
+
+@media (min-width: 992px)  {
+    
+    body{
+
+        font-size: var(---Font_Principal);
+
+        background-color: rgb(46, 45, 45);
+
+    }
+
+    main#conteiner{
+
+        width: 100vw;
+        height: 92vh;
+
+        display: flex;
+
+        flex-flow: row nowrap;
+
+        justify-content: space-evenly;
+
+        align-items: center;
+
+        gap: 24px;
+
+    }
+
+    section.cards{
+
+        background-color: var(---Cinza_Texto);
+
+    }
+
+    span{
+
+        color: var(---Cinza_Borda);
+
+        font-size: 16px;
+
+    }
+
+    section#basico{
+
+        padding: 10px;
+
+        flex-basis: 280px;
+        flex-grow: 0;
+        flex-shrink: 1;
+
+        height: 420px;
+
+        border-radius: 10px;   
+        border: 1px solid var(---Branco);
+
+    }
 
 
+
+    h1#text1{
+
+        color: var(---Branco);
+
+        font-size: 2.2rem;
+        font-weight: bolder;
+
+        margin: 10px 0px 5px 10px;
+
+    }
+
+    h2#preç1{
+
+        color: var(---Branco);
+
+        margin: 0px 0px 5px 10px;
+
+        font-size: 32px;
+
+    }
+
+    ul#cont1{
+
+        list-style-type: none;
+
+        padding: 10px;
+        margin: 5px 0px 8px 0px;
+
+        color: var(---Cinza_Borda);
+
+        font-size: 22px;
+
+        line-height: 2.4;
+
+    }
+
+    button#buton1{
+
+        background-color: var(---Cinza_Texto);
+        color: var(---Branco);
+
+        text-align: center;
+
+        font-size: 16px;
+
+        padding: 16px;
+        margin-top: 10px;
+
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.637);
+
+        width: 100%;
+
+    }
+
+    section#pro{
+
+        flex-basis: 320px;
+        flex-grow: 0;
+        flex-shrink: 1;
+
+        height: 460px;
+
+        border-radius: 10px;  
+        border: 2px solid var(---Azul_Destaque);
+
+    }
+
+    span#popu{
+
+        display: inline-block;
+
+        background-color: var(---Azul_Badge_Fundo);
+        color: var(---Azul_Badge_Texto);
+
+        padding: 10px;
+        margin: 15px 0px 0px 15px;
+
+        font-size: 17px;
+
+        border-radius: 10px;
+
+    }
+
+    h1#text2{
+
+        color: var(---Branco);
+
+        font-size: 2.2rem;
+        font-weight: bolder;
+
+        margin: 10px 0px 5px 18px;
+
+
+    }
+
+    h2#preç2{
+
+        color: var(---Branco);
+
+        margin: 0px 0px 5px 18px;
+
+        font-size: 25px;   
+
+    }
+
+    ul#cont2{
+
+        list-style-type: none;
+
+        padding: 5px 0px 18px 10px;
+        margin: 10px;
+
+        color: var(---Cinza_Borda);
+
+        font-size: 23px;
+
+        line-height: 2.3;
+
+    }
+
+    button#buton2{
+
+        background-color: var(---Azul_Destaque);
+        color: var(---Branco);
+
+        text-align: center;
+
+        padding: 18px;
+        margin-left: 11px;
+
+        border-radius: 20px;
+        border: 1px solid white;
+
+        width: 93%;
+
+    }
+
+    section#premium{
+
+        flex-basis: 280px;
+        flex-grow: 0;
+        flex-shrink: 1;
+
+        height: 420px;
+
+        border-radius: 10px;
+        border: 1px solid var(---Branco);
+
+    }
+
+    h1#text3{
+
+        color: var(---Branco);
+
+        padding: 10px;
+
+        font-size: 2.3rem;
+        font-weight: bolder;
+
+        margin: 10px 0px 5px 10px;
+
+    }
+
+    h2#preç3{
+
+        color: var(---Branco);
+
+        margin: 0px 0px 5px 18px;
+
+        font-size: 34px;
+
+    }
+
+    ul#cont3{
+
+        list-style-type: none;
+
+        padding: 10px;
+        margin: 5px 0px 15px 10px;
+
+        color: var(---Cinza_Borda);
+
+        font-size: 20px;
+
+        line-height: 2.5;
+
+    }
+
+    button#buton3{
+
+        background-color: var(---Cinza_Texto);
+        color: var(---Branco);
+
+        text-align: center;
+
+        padding: 18px;
+        margin-left: 10px;
+
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.637);
+
+        width: 93%;
+
+    }
+
+}
